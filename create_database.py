@@ -6,6 +6,9 @@ from langchain.vectorstores.chroma import Chroma
 import os
 import shutil
 
+import dotenv
+dotenv.load_dotenv()
+
 CHROMA_PATH = "chroma"
 DATA_PATH = "data/books"
 
